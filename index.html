@@ -9,22 +9,16 @@
     <script src="src/components/TituloDinamico.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="card_left">
-                <span>
-                    By Júlia Vasconcelos
-                </span>
-                <h1>Darth Vader Contrata Devs</h1>
-                <p>Darth Vader procura desenvolvedores que saibam componeitização.</p>
-            </div>
-            <div class="card_right">
-                <img src="assets/darth-vader.png" alt="Imagem de Darth Vader">
-            </div>
-        </div>
+    <div class="container">        
+        <card-news 
+        autor="Júlia V"
+        titulo="Darth Vader Contrata Devs"
+        conteudo="Darth Vader procura desenvolvedores que saibam componeitização."
+        photo="assets/darth-vader.png"
+        ></card-news>
+        <titulo-dinamico titulo="Titulo Noticia"></titulo-dinamico>
     </div>
 
-    <card-news></card-news>
-    <titulo-dinamico titulo="Titulo Noticia"></titulo-dinamico>
+    
 </body>
 </html>
